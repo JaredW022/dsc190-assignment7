@@ -1,0 +1,21 @@
+[project]
+name = "dsc190-assignment7"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jared Wang", email = "jjw022@ucsd.edu" }
+]
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "dvc>=3.67.1",
+    "marimo>=0.25.2",
+    "matplotlib>=3.11.2",
+]
+
+[project.scripts]
+dsc190-assignment7 = "dsc190_assignment7:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
